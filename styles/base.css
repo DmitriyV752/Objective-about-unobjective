@@ -9,16 +9,15 @@ body {
     font-family: 'Montserrat', 'Arial', sans-serif;
     font-size: 18px;
     line-height: 30px;
-    color: #4a525a;
-
-    background-color: #fefefb;
-
+    color: #1d2329;
+    background-color: #f5d186;
     overflow-x: hidden;
+    color: #8e298fe8;
 }
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -38,4 +37,14 @@ img {
     clip: rect(0 0 0 0);
 
     overflow: hidden;
+}
+   
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
 }
