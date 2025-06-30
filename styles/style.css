@@ -8,4 +8,9 @@
 @import "header.css";
 /* Подключение стилей относящихся к footer */
 @import "footer.css";
+@import "button.css";
+@import "card.css";
+@import "popup.css";
+@import "promo.css";
 @import "main.css";
+@import "media.css";

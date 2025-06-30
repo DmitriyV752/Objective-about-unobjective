@@ -28,3 +28,8 @@
     justify-content: center;
     align-items: center;
 }
+.prouseful__item:hover, .catalogum__item:hover, .oneforyou__item:hover {
+    color: #e15a85;
+    position: relative;
+    top: -2px;
+}
