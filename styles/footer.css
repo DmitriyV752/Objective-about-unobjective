@@ -23,7 +23,3 @@
     flex-direction: column;
     gap: 32px;
 }
-.footer{
-    position: absolute;
-    bottom: 0;
-}
