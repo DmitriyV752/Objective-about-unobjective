@@ -32,4 +32,23 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    //Объявляем переменную trenersContainer и сохраняем в нее элементы treners
+    const trenersContainer = document.querySelector(".prouseful__list");
+    // проверяем существует ли элемент trenersContainer, если он существует то переходим далее
+    if (trenersContainer) {
+    //далее создаем массив dataTitleTreners, который содержит строки с именами тренеров.(здесь уже пишем те значения, которые надо подставить вместо слова Тренер 1, Тренер 2 и т.д)
+    const dataTitleTreners= [
+            "Структура общества",
+            "Политика",
+            "Вооружение",
+            "Общественные отношения",
+        ];
+    //Объявляем переменную titleTreners и сохраняем в нее все элементы на странице с классом treners__subtitle (где должны стоять имена тренеров)
+    const titleTreners =trenersContainer.querySelectorAll(".prouseful__item__name");
+    // Проходим по каждому элементу массива titleTreners с помощью цикла forEach. Внутри функции 2 переменные: item – текущий заголовок, а index — его индекс в массиве.
+    titleTreners.forEach((item, index) => {
+        //здесь обновляем значение текущего заголовка (textContent) на новое значение из массива dataTitleCards, используя индекс текущего заголовка.
+        item.textContent = dataTitleTreners[index];
+        });
+    }
 });
