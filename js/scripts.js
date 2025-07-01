@@ -97,4 +97,9 @@ document.addEventListener("DOMContentLoaded", () => {
             item.textContent = dataTitleTreners[index];
         });
     }
+        
+   
+
 });
+
+
